@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.example.mynewsapp.Network.Api;
 import com.example.mynewsapp.Network.ApiInt;
@@ -62,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
                     recyclerView.setAdapter(adapter);
                     adapter.notifyDataSetChanged();
 
+                }else{
+                    Toast.makeText(MainActivity.this,"İnternet bağlantısını kontrol edin",Toast.LENGTH_LONG).show();
                 }
             }
 
