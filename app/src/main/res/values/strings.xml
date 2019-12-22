@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyNewsApp</string>
+    <string name="action_back">Back</string>
+    <string name="title_home">Genel</string>
+    <string name="title_business">İş</string>
+    <string name="title_entertainment">Eğlence</string>
+    <string name="title_sport">Spor</string>
 </resources>

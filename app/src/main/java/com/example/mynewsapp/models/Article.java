@@ -37,7 +37,7 @@ public class Article {
         return source;
     }
 
-    public void setSource(Source souurce) {
+    public void setSource(Source source) {
         this.source = source;
     }
 
