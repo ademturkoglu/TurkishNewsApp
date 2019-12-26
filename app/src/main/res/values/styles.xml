@@ -12,4 +12,8 @@
         <item name = "android:windowActionBar">false</item>
         <item name = "android:windowNoTitle">true</item>
     </style>
+
+    <style name="toolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
 </resources>
