@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/back_panel"
+    android:paddingTop="40dp"
+    android:paddingBottom="44dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:id="@+id/panel"
+
+    >
+
+    <TextView
+        android:id="@+id/txtpanelKullaniciAdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user name"
+        android:textColor="#444441"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/edtpanelKullaniciAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter username"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:textColorHint="#9B9B9B"
+        android:textColor="#444441"
+        android:backgroundTint="#EBEBEB"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:maxLines="1"
+        android:lines="1"
+        android:inputType="textVisiblePassword|textNoSuggestions"
+        android:nextFocusForward="@id/edtpanelSifre"
+        />
+
+    <TextView
+        android:id="@+id/txtpanelSifre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:layout_marginTop="20dp"
+        android:textColor="#444441"
+        android:textSize="16sp"
+        />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edtpanelSifre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter password"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:textColorHint="#9B9B9B"
+            android:textColor="#444441"
+            android:inputType="textPassword"
+            android:backgroundTint="#EBEBEB"
+            android:maxLines="1"
+            android:lines="1"
+            />
+
+        <TextView
+            android:id="@+id/txtpanelSifreGoster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="show"
+            android:layout_alignBaseline="@+id/edtpanelSifre"
+            android:layout_alignRight="@id/edtpanelSifre"
+            android:layout_marginRight="10dp"
+            android:visibility="visible"
+            android:textColor="#444441"
+            android:textSize="14sp"
+            android:onClick="edtPanelSifreGoster"
+            />
+
+    </RelativeLayout>
+
+    <!--
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation = "horizontal"
+
+            >
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#023F60"
+                android:checked="true"
+                />
+
+
+            <TextView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "remember me"
+                android:textColor = "#023F60"
+
+                />
+
+
+        </LinearLayout>
+    -->
+    <TextView
+        android:id="@+id/txtpanelAciklama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eğer kullanıcı adı ve şifreniz yoksa üye olabilirsiniz.                    "
+        android:textSize="12sp"
+        android:layout_marginTop="7dp"
+        android:textColor="#444441"
+        />
+
+
+</LinearLayout>

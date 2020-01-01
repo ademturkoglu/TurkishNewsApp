@@ -65,8 +65,8 @@
                 android:background="@drawable/round_white"
                 android:padding="5dp"
                 android:layout_alignParentRight="true"
-                android:layout_marginRight="20dp"
-                android:layout_marginTop="-50dp">
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="-200dp">
 
                 <ImageView
                     android:src="@drawable/ic_date"
