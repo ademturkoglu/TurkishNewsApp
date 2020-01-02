@@ -20,7 +20,7 @@
         android:id="@+id/txtpanelKullaniciAdi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="user name"
+        android:text="email"
         android:textColor="#444441"
         android:textSize="16sp"
         />
@@ -125,7 +125,17 @@
         android:textSize="12sp"
         android:layout_marginTop="7dp"
         android:textColor="#444441"
+
         />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:text="Üye ol"
+        android:onClick="signUpClicked"
+        android:background="@drawable/back_panel"/>
 
 
 </LinearLayout>

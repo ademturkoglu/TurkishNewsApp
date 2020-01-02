@@ -46,4 +46,7 @@ dependencies {
 
 //Times Formater
     implementation 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
+    implementation 'com.google.firebase:firebase-auth:19.2.0'
 }
+
+apply plugin: 'com.google.gms.google-services'
