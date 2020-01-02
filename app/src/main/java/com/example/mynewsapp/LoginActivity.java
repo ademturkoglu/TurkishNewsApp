@@ -187,6 +187,8 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Exception e) {
                 Toast.makeText(LoginActivity.this,e.getLocalizedMessage().toString(),Toast.LENGTH_LONG).show();
+                publicArea.editTextAlertTint(edtUserName);
+                publicArea.editTextAlertTint(edtPassword);
             }
         });
 
@@ -214,6 +216,8 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Exception e) {
                 Toast.makeText(LoginActivity.this,e.getLocalizedMessage().toString(),Toast.LENGTH_LONG).show();
+                publicArea.editTextAlertTint(edtUserName);
+                publicArea.editTextAlertTint(edtPassword);
             }
         });
 
